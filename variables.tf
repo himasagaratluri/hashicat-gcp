@@ -7,10 +7,12 @@
 
 variable "project" {
   description = "ID of your GCP project. Make sure you set this up before running this terraform code.  REQUIRED."
+  default = "p-icba6ytbs59oqx8hramkmbirjey6"
 }
 
 variable "prefix" {
   description = "This prefix will be included in the name of some resources. You can use your own name or any other short string here."
+  default = "himaatluri"
 }
 
 variable "region" {
